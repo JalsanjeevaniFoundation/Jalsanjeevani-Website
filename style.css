@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+    background-color: #f0f5e9; /* Light green background */
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #3e8b4f; /* Dark green navbar background */
+}
+
+
+.navbar-logo {
+    height: auto; /* Allow the logo's height to adjust automatically */
+    width: 100%; /* Set the logo's width to 100% of its parent (the navbar) */
+    max-width: none; /* Remove any maximum width restriction */
+}
+
+.navbar-brand {
+    color: #ffffff; /* White text for the brand */
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff; /* White text for the navbar links */
+}
+
+/* Hero Section Styles */
+.hero {
+    padding: 100px 0;
+    text-align: center;
+    color: #3e8b4f; /* Dark green text color */
+}
+
+/* Blog Section Styles */
+.blog {
+    padding: 50px 0;
+}
+
+/* About Us Section Styles */
+.about {
+    padding: 50px 0;
+    background-color: #ffffff; /* White background for about section */
+}
+
+/* Team Section Styles */
+.team {
+    padding: 50px 0;
+}
+
+/* Donate Section Styles */
+.donate {
+    padding: 50px 0;
+    background-color: #ffffff; /* White background for donate section */
+}
+
+/* Volunteer Section Styles */
+.volunteer {
+    padding: 50px 0;
+}
+
+/* Footer Styles */
+.footer {
+    padding: 20px 0;
+    background-color: #3e8b4f; /* Dark green footer background */
+    color: #ffffff; /* White text color for the footer */
+}
+
+/* Blog Post Styles */
+.blog-post {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #ffffff; /* White background for blog posts */
+}
+
+/* Add more custom styles as needed */
+
+.hero,
+.blog,
+.about,
+.team,
+.donate,
+.volunteer {
+    margin-top: 0; /* Remove the top margin */
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jalsajeevan Foundation</title>
+    
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Your custom CSS file -->
+    <link rel="stylesheet" href="style.css"> 
+    <!-- Include your external JavaScript file -->
+    <script src="script.js"></script>
+
+
+    <!-- Add Bootstrap CSS and JavaScript links -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- Navbar using Bootstrap -->
+<nav class="navbar navbar-expand-lg navbar-success bg-success navbar-dark" >
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">
+        <img src="asset/logo/logo_eng_z.png" alt="Jalsajeevan Foundation Logo"  width="50px" loading="lazy">
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#about">About Us</a>
+          <a class="nav-link" href="#team">Our Team</a>
+          <a class="nav-link" href="#donate">Donate</a>
+          <a class="nav-link" href="#volunteer">Volunteer</a>
+          <!-- Button to open the admin login modal -->
+          <!-- <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#adminLoginModal">
+              Admin Login
+          </button> -->
+        </div>
+      </div>
+    
+</nav>
+
+
+<!-- Hero Section with Carousel -->
+
+    <div id="heroCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#heroCarousel" data-slide-to="1"></li>
+            <li data-target="#heroCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="asset/slide/slide1.jpg" class="d-block w-100"  alt="Slide 1">
+                <div class="carousel-caption">
+                    <h1>Welcome to Jalsajeevan Foundation</h1>
+                    <p>Empowering farmers for a better future.</p>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="asset/slide/slide2.jpg" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption">
+                    <h1>Join Us in Making a Difference</h1>
+                    <p>Supporting sustainable farming practices.</p>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img src="asset/slide/slide3.png" class="d-block w-100 h-30" alt="Slide 3">
+                <div class="carousel-caption">
+                    <h1>Together, We Can Create Prosperity</h1>
+                    <p>Transforming lives in rural India.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+<!-- Blog Section -->
+    <div class="container heading text-center pt-5 pb-4">
+        <h2>Latest Articles</h2>
+        <div class="row justify-content-center" id="blog-posts">
+            <!-- Blog posts will be dynamically added here using JavaScript -->
+        </div>
+        <!-- Link to the full blog page -->
+        <div class="pt-3">
+            <a href="articles.html" class="btn btn-primary">View All Posts</a>
+        </div>
+        
+    </div>
+
+<!-- Donate Section -->
+<div class="container heading text-center pt-5 pb-4" id="donate">
+    <h2>Donate</h2>
+    <div class="container" >
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 w-100">
+                <img src="asset/qr_mock.png" alt=""  width="100%">
+            </div>
+            <div class="col">
+                <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+                    <p class="text-center">
+                        Remember that the happiest people are not those getting more, but those giving more.
+                    </p>
+                    <img src="asset/qr.jpeg" alt="" class="rounded-sm w-6/12 sm:w-4/12 md:w-5/12 lg:w-3/12">
+                    <button type="button" class="btn btn-primary">Download QR <span class="bi bi-download"></span></button>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+
+
+    <!-- <h2>Donate</h2>
+    <p>Your support can make a significant difference in the lives of farmers. By donating to Jalsajeevan Foundation, you contribute to the development of sustainable farming practices, training programs, and resources for farmers. Together, we can create a brighter future for Indian farmers.</p>
+    <a href="donate.html" class="btn btn-success">Donate Now</a>
+</div>    -->
+
+<!-- About Us Section -->
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Welcome to Jalsajeevan Foundation. We are dedicated to empowering farmers across India by providing them with the knowledge, resources, and support they need to improve their agricultural practices and enhance their livelihoods. Our mission is to create a sustainable and prosperous farming community in India.</p>
+    </div>
+
+<!-- Team Section -->
+    <div class="container">
+        <h2>Our Team</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="team-member-1.jpg" alt="Team Member 1" class="img-fluid rounded-circle">
+                    <h3>John Doe</h3>
+                    <p>Founder & President</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="team-member-2.jpg" alt="Team Member 2" class="img-fluid rounded-circle">
+                    <h3>Jane Smith</h3>
+                    <p>Vice President</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="team-member-3.jpg" alt="Team Member 3" class="img-fluid rounded-circle">
+                    <h3>Amit Patel</h3>
+                    <p>Director of Programs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- Volunteer Section -->
+    <div class="container" id="volunteer">
+        <h2>Volunteer</h2>
+        <p>We welcome volunteers who are pasxsionate about agriculture and want to contribute to our cause. As a volunteer, you can help organize workshops, provide training, or assist with fundraising events. Join us in our mission to support and uplift farmers in India.</p>
+        <a href="volunteer.html" class="btn btn-primary">Get Involved</a>
+    </div>
+
+<!-- Footer -->
+    <div class="container text-center">
+        <p>&copy; 2023 Jalsajeevan Foundation</p>
+    </div>
+
+<!-- Admin Login Modal -->
+<div class="modal fade" id="adminLoginModal" tabindex="-1" role="dialog" aria-labelledby="adminLoginModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="adminLoginModalLabel">Admin Login</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Admin login form can be added here -->
+                <form id="admin-login-form">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" class="form-control" required>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Login</button>
+            </div>
+        </div>
+    </div>
+</div>
+
