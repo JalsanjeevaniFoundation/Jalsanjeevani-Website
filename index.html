@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     
     <!-- Your custom CSS file -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
+    <!-- Include your external JavaScript file -->
+    <script src="script.js"></script>
+
 
     <!-- Add Bootstrap CSS and JavaScript links -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -20,9 +23,12 @@
 <body>
 
 <!-- Navbar using Bootstrap -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+<nav class="navbar navbar-expand-lg navbar-success bg-success navbar-dark" >
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
     <a class="navbar-brand" href="#">
-        <img src="asset/logo/logo_marathi_z.png" alt="Jalsajeevan Foundation Logo"  width="5%" height="5%" loading="lazy">
+        <img src="asset/logo/logo_eng_z.png" alt="Jalsajeevan Foundation Logo"  width="50px" loading="lazy">
     </a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
@@ -32,9 +38,9 @@
           <a class="nav-link" href="#donate">Donate</a>
           <a class="nav-link" href="#volunteer">Volunteer</a>
           <!-- Button to open the admin login modal -->
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#adminLoginModal">
+          <!-- <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#adminLoginModal">
               Admin Login
-          </button>
+          </button> -->
         </div>
       </div>
     
@@ -42,7 +48,7 @@
 
 
 <!-- Hero Section with Carousel -->
-<section class="hero">
+
     <div id="heroCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
@@ -68,7 +74,7 @@
             </div>
             <!-- Slide 3 -->
             <div class="carousel-item">
-                <img src="asset/slide/slide3.png" class="d-block w-100" alt="Slide 3">
+                <img src="asset/slide/slide3.png" class="d-block w-100 h-30" alt="Slide 3">
                 <div class="carousel-caption">
                     <h1>Together, We Can Create Prosperity</h1>
                     <p>Transforming lives in rural India.</p>
@@ -84,28 +90,57 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-</section>
+
 
 <!-- Blog Section -->
-<section class="blog">
-    <div class="container">
-        <h2>Latest Blog Posts</h2>
-        <div class="row" id="blog-posts">
+    <div class="container heading text-center pt-5 pb-4">
+        <h2>Latest Articles</h2>
+        <div class="row justify-content-center" id="blog-posts">
             <!-- Blog posts will be dynamically added here using JavaScript -->
         </div>
+        <!-- Link to the full blog page -->
+        <div class="pt-3">
+            <a href="articles.html" class="btn btn-primary">View All Posts</a>
+        </div>
+        
     </div>
-</section>
+
+<!-- Donate Section -->
+<div class="container heading text-center pt-5 pb-4" id="donate">
+    <h2>Donate</h2>
+    <div class="container" >
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 w-100">
+                <img src="asset/qr_mock.png" alt=""  width="100%">
+            </div>
+            <div class="col">
+                <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+                    <p class="text-center">
+                        Remember that the happiest people are not those getting more, but those giving more.
+                    </p>
+                    <img src="asset/qr.jpeg" alt="" class="rounded-sm w-6/12 sm:w-4/12 md:w-5/12 lg:w-3/12">
+                    <button type="button" class="btn btn-primary">Download QR <span class="bi bi-download"></span></button>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+
+
+    <!-- <h2>Donate</h2>
+    <p>Your support can make a significant difference in the lives of farmers. By donating to Jalsajeevan Foundation, you contribute to the development of sustainable farming practices, training programs, and resources for farmers. Together, we can create a brighter future for Indian farmers.</p>
+    <a href="donate.html" class="btn btn-success">Donate Now</a>
+</div>    -->
 
 <!-- About Us Section -->
-<section class="about" id="about">
     <div class="container">
         <h2>About Us</h2>
         <p>Welcome to Jalsajeevan Foundation. We are dedicated to empowering farmers across India by providing them with the knowledge, resources, and support they need to improve their agricultural practices and enhance their livelihoods. Our mission is to create a sustainable and prosperous farming community in India.</p>
     </div>
-</section>
 
 <!-- Team Section -->
-<section class="team" id="team">
     <div class="container">
         <h2>Our Team</h2>
         <div class="row">
@@ -132,32 +167,20 @@
             </div>
         </div>
     </div>
-</section>
 
-<!-- Donate Section -->
-<section class="donate" id="donate">
-    <div class="container">
-        <h2>Donate</h2>
-        <p>Your support can make a significant difference in the lives of farmers. By donating to Jalsajeevan Foundation, you contribute to the development of sustainable farming practices, training programs, and resources for farmers. Together, we can create a brighter future for Indian farmers.</p>
-        <a href="donate.html" class="btn btn-success">Donate Now</a>
-    </div>
-</section>
+
 
 <!-- Volunteer Section -->
-<section class="volunteer" id="volunteer">
-    <div class="container">
+    <div class="container" id="volunteer">
         <h2>Volunteer</h2>
-        <p>We welcome volunteers who are passionate about agriculture and want to contribute to our cause. As a volunteer, you can help organize workshops, provide training, or assist with fundraising events. Join us in our mission to support and uplift farmers in India.</p>
+        <p>We welcome volunteers who are pasxsionate about agriculture and want to contribute to our cause. As a volunteer, you can help organize workshops, provide training, or assist with fundraising events. Join us in our mission to support and uplift farmers in India.</p>
         <a href="volunteer.html" class="btn btn-primary">Get Involved</a>
     </div>
-</section>
 
 <!-- Footer -->
-<footer class="footer">
     <div class="container text-center">
         <p>&copy; 2023 Jalsajeevan Foundation</p>
     </div>
-</footer>
 
 <!-- Admin Login Modal -->
 <div class="modal fade" id="adminLoginModal" tabindex="-1" role="dialog" aria-labelledby="adminLoginModalLabel" aria-hidden="true">

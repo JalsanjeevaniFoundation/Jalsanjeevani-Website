@@ -75,3 +75,12 @@ body {
 }
 
 /* Add more custom styles as needed */
+
+.hero,
+.blog,
+.about,
+.team,
+.donate,
+.volunteer {
+    margin-top: 0; /* Remove the top margin */
+}
