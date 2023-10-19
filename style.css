@@ -1,12 +1,14 @@
 /* Global Styles */
 body {
-    background-color: #f0f5e9; /* Light green background */
+    background-color: #9df1bd; /* Light green background */
     font-family: Arial, sans-serif;
+    /* padding-top: 70px; */
 }
 
 /* Navbar Styles */
 .navbar {
-    background-color: #3e8b4f; /* Dark green navbar background */
+    background-color: #36ac50; /* Dark green navbar background */
+    /* height: 60px; */
 }
 
 
@@ -29,7 +31,7 @@ body {
 .hero {
     padding: 100px 0;
     text-align: center;
-    color: #3e8b4f; /* Dark green text color */
+    color: #36ac50; /* Dark green text color */
 }
 
 /* Blog Section Styles */
@@ -61,10 +63,27 @@ body {
 
 /* Footer Styles */
 .footer {
+    background-color: #36ac50;
+    color: #ffffff;
     padding: 20px 0;
-    background-color: #3e8b4f; /* Dark green footer background */
-    color: #ffffff; /* White text color for the footer */
-}
+    width: 100%;
+    max-width: none;
+  }
+
+  .footer a {
+    color: #ffffff;
+  }
+
+  .footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+
+/* .footer {
+    padding: 20px 0;
+    background-color: #3e8b4f; 
+    color: #ffffff; 
+} */
 
 /* Blog Post Styles */
 .blog-post {
@@ -84,3 +103,12 @@ body {
 .volunteer {
     margin-top: 0; /* Remove the top margin */
 }
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
